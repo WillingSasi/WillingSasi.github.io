@@ -1,0 +1,116 @@
+# Site settings
+title: WS Blog
+SEOTitle: 维林撒的博客 | WS Blog
+header-img: img/home-bg.jpg
+email: willingsasi@gmail.com
+description: "无限进步 💪 "
+keyword: ""
+url: "https://willingsasi.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true
+weibo_username:     u/1870966724
+# zhihu_username:     li-lin-fei
+github_username:    WillingSasi
+# linkedin_username:  露鑫-李-525b58111
+# twitter_username:   yizibi
+# facebook_username:  yizibbi
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+textColor: #FF0000
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+timezone: CN  
+
+# Back to top 回到顶部by ray-eldath
+b2t: true
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+plugins: [jekyll-sitemap]
+gems: [jekyll-sitemap]
+paginate_path: "page:num"   #分页页面路径格式
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Comment
+#comment:
+    #disqus: yizibi
+
+# Netease settings
+netease_comment: false
+
+gitalk:
+   enable: true
+   owner: willingsasi
+   repo: willingsasi.github.io
+   clientID: c82ebab999f684055a7b
+   clientSecret: 0c551be36f3ae66808ef1d1dcd1cf8226e6b113d
+   admin: WillingSasi
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-124793396-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: “写写代码，做做测试，拍拍照片。世界那么大，多玩玩看看。"
+sidebar-avatar: /img/me.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: false
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+]
