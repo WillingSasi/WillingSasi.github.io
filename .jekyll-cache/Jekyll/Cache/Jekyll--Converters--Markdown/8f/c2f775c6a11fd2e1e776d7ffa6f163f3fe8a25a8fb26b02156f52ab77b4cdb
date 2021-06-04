@@ -1,0 +1,103 @@
+I"�<h1 id="docker-搭建-elk-日志记录框架详细步骤">Docker 搭建 ELK 日志记录框架详细步骤:</h1>
+
+<ol>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">docker create network elknet</code></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">docker run -d --name elasticsearch --network elknet --network-alias elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.9.1</code></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">docker run -d --name kibana --network elknet --network-alias kibana -p 5601:5601 kibana:7.9.1</code></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">docker run -d --name logstash --network elknet --network-alias logstash -p 5044:5044 logstash:7.9.1</code></p>
+  </li>
+  <li>
+    <p>配置的log4j2发送tcp到logstash</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">vi /usr/share/logstash/pipeline/logstash.conf</code></p>
+  </li>
+  <li>
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="rouge-code"><pre>input {
+  tcp {
+    port =&gt; 5044
+    mode =&gt; "server"
+  }
+}
+   
+output {
+  elasticsearch {
+    hosts =&gt; ["elasticsearch:9200"]
+    index =&gt; "apidemo"
+  }
+   
+  stdout{
+    codec =&gt; rubydebug
+  }
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">vim log4j2.xml</code></p>
+  </li>
+  <li>
+    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="rouge-code"><pre><span class="nt">&lt;appenders&gt;</span>
+  +
+  <span class="nt">&lt;Socket</span> <span class="na">name=</span><span class="s">"LogstashTcp"</span> <span class="na">host=</span><span class="s">"你的localhost"</span> <span class="na">port=</span><span class="s">"5044"</span> <span class="na">protocol=</span><span class="s">"TCP"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;PatternLayout&gt;</span>
+      <span class="nt">&lt;Pattern&gt;</span>%d{HH:mm:ss.SSS} %-5level method:%l%n%m%n<span class="nt">&lt;/Pattern&gt;</span>
+    <span class="nt">&lt;/PatternLayout&gt;</span>
+  <span class="nt">&lt;/Socket&gt;</span>
+<span class="nt">&lt;/appenders&gt;</span>
+   
+<span class="nt">&lt;loggers&gt;</span>
+  <span class="nt">&lt;root</span> <span class="na">level=</span><span class="s">"trace"</span><span class="nt">&gt;</span>
+    +
+    <span class="nt">&lt;appender-ref</span> <span class="na">ref=</span><span class="s">"LogstashTcp"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/root&gt;</span>
+<span class="nt">&lt;/loggers&gt;</span>
+   
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Kibana上添加apidemo index, 然后查询refash就显示数据了</p>
+  </li>
+  <li><img src="/img/docker-kibana.png" alt="javascript" /></li>
+</ol>
+
+:ET
