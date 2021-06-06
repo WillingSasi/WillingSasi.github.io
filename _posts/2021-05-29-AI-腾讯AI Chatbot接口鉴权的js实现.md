@@ -1,5 +1,5 @@
 ---
-blue-dot-3.jpglayout:     post
+layout:     post
 title:      "腾讯AI Chatbot接口鉴权的js实现"
 subtitle:   "算法实现"
 date:       2021-05-29 01:50:00
@@ -8,7 +8,7 @@ header-img: "img/ai-1.jpg"
 tags:
     - AI
     - JavaScript
-    - wx小程序
+    - WX小程序
 ---
 
 

@@ -6,9 +6,9 @@ date:       2021-04-15 01:00:00
 author:     "WS"
 header-img: "img/docker-elk.jpg"
 tags:
-    - docker
-    - elk
-    - devops
+    - Docker
+    - ELK
+    - Devops
 ---
 
 
