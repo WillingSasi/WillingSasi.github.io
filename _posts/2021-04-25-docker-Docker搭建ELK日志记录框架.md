@@ -5,6 +5,7 @@ subtitle:   " \"ELK In Docker\""
 date:       2021-04-15 01:00:00
 author:     "WS"
 header-img: "img/docker-elk.jpg"
+catalog:    true
 tags:
     - Docker
     - ELK

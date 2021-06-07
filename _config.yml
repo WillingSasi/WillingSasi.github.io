@@ -1,11 +1,11 @@
 # Site settings
 title: WS Blog
-SEOTitle: WS Blog
+SEOTitle: WS Blog | 华子的博客
 header-img: img/home-bg.jpg
 email: willingsasi@gmail.com
-description: "无限进步 💪 "
-keyword: ""
-url: "https://willingsasi.github.io/"              # your host, for absolute URL
+description: "程序、设计、拍照、探索 | liuguanhua & Photography Lover，Software Engineer | 这里是 华子 @willingsasi liuguanhua 的个人博客，无限进步 💪 "
+keyword: "liuguanhua, 华子, 个人网站, 程序设计, 拍照摄影, 互联网, WLB, WS Blog, 华子的博客"
+url: "https://willingsasi.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -14,13 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     u/1870966724
-# zhihu_username:     li-lin-fei
 github_username:    WillingSasi
-# linkedin_username:  露鑫-李-525b58111
-# twitter_username:   yizibi
-# facebook_username:  yizibbi
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -62,8 +56,6 @@ kramdown:
       start_line: 1
 
 # Comment
-#comment:
-    #disqus: yizibi
 
 # Netease settings
 netease_comment: false

@@ -5,6 +5,7 @@ subtitle:   "算法实现"
 date:       2021-05-29 01:50:00
 author:     "WS"
 header-img: "img/ai-1.jpg"
+catalog:    true
 tags:
     - AI
     - JavaScript

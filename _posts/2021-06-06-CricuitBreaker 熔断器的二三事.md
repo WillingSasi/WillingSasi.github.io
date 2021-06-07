@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2021-06-06 21:53:00
 author:     "WS"
 header-img: "img/cricuitbreaker.jpg"
+catalog:    true
 tags:
     - Java
     - Spring

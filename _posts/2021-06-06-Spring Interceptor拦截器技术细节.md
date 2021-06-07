@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2021-06-06 23:52:00
 author:     "WS"
 header-img: "img/Interceptor.jpg"
+catalog:    true
 tags:
     - Java
     - Spring
