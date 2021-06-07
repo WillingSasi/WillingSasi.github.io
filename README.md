@@ -21,4 +21,5 @@
 > 个人推广
 
 个人根据开源项目做的微信小程序也已上线, 主打图片修复增强各种功能, 有兴趣的铁子可以体验试试, 后续也会开源到微信git平台, 或者想要的直接私我, 小程序码如下:
-![javascript](/img/xiaochengxu.jpg)
+
+> ![javascript](/img/xiaochengxu.jpg)
