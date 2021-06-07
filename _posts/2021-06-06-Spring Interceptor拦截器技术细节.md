@@ -95,7 +95,7 @@ public class MaintenanceInterceptor extends HandlerInterceptorAdapter {
 }
 ```
 
-####3. 注册写好的Interceptor, 也就是配置在WebMvcConfigurer中, Springboot自动发现
+#### 3. 注册写好的Interceptor, 也就是配置在WebMvcConfigurer中, Springboot自动发现
 
 ```java
 //注意也要申明为Configuration
@@ -112,7 +112,7 @@ public class InterceptorConf implements WebMvcConfigurer {
 }
 ```
 
-####4. @MaintenanceAdapter 再需要拦截的方法上标记注解即可
+#### 4. @MaintenanceAdapter 再需要拦截的方法上标记注解即可
 
 
 

@@ -14,9 +14,11 @@
 
 如果你觉得本站不错,欢迎 [star](https://github.com/WillingSasi/WillingSasi.github.io),你的 [star](https://github.com/WillingSasi/WillingSasi.github.io)是我不断进步,不断坚持的动力,如果你正好也有兴趣拥有自己的个人博客,我们也可以交换一下友链;
 
-
 > 友情链接
 
 关于友情链接,完全是为了,互相督促自己,如果想和我`互友`,欢迎在[issue](https://github.com/WillingSasi/WillingSasi.github.io/issues)留言你的链接,注明,title;
 
-另外,既然是友链,我也希望,我们能够及时更新博客,不要只有3分钟热度,得过且过,这样是适合互友链的,谢谢;
+> 个人推广
+
+个人根据开源项目做的微信小程序也已上线, 主打图片修复增强各种功能, 有兴趣的铁子可以体验试试, 后续也会开源到微信git平台, 或者想要的直接私我, 小程序码如下:
+![javascript](/img/xiaochengxu.jpg)
