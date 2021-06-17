@@ -494,3 +494,7 @@ const randomString = (len) => {
 
 
 ## 3. 越来越觉得js好玩了😊continue!!!
+
+推广个人AI小程序, 欢迎一起玩
+
+![javascript](/img/xiaochengxu.jpg)
