@@ -1,82 +1,42 @@
 ---
 layout:     post
-title:      "AZ-900,微软Azure900认证考试获取机要(可白嫖所有资料)"
-subtitle:   "AZ900"
-date:       2021-06-17 15:27:00
+title:      "Jvm Sandbox Repeater更上一层楼"
+subtitle:   "repeater"
+date:       2021-07-06 15:27:00
 author:     "WS"
 header-img: "img/bookstore-2.jpg"
 catalog:    true
 tags:
-    - Azure
-    - AZ-900
+    - Java
+    - Sandbox
+    - Sandbox Repeater
 ---
 
-## 1.背景
+## 1.更上一层楼
 
-机缘巧合, 公司有个Azure 900的学习和认证机会, 遂报名, 然本人惰性十足, 自学完课程后, 一直拖延未去考试, 毕竟不是自己花钱考试, 有点想放弃, 最后剩半个月有效期时, 想想还时试试, 49刀的考试费, 万一过了也没啥坏处, 然后重新开始看题准备考试.
+  JVM Sandbox前面都demo完了, 项目中也简单实验了, 基于此能做很多的可能, sanbox作者xudongchen在项目readme中写道:
 
-前后突击一个礼拜左右, 但是要满打满算的话, 估计能看了有3天左右, 700分及格, 805险过.
+>  扪心自问，我是想以一人一个团队的力量建立大而全的工具平台，还是做一个底层中台，让每一位技术人员都可以在它的基础上快速的实现业务功能。我选择了后者其中Sandbox Repeater就是官方产出的很好的示范例子.
 
-🔞⚠️所有资料我已打包上传本人github, 下载链接在此文最后, 需要任何帮助可给我留言⚠️🔞
+  sandbox是相当于配件, 有这个配件, 想做出什么样的工具在于个人发挥, sandbox repeater主要是围绕录制流程和回放流程的一个工具
 
-学习过程主要有三步吧, 下面详细说明.
+![javascript](/img/repeater-1.png)
 
-## 2.第一步: 群揽课程知识
+## 2.操作步骤
 
-1. AZ900课件在Azure官方学习课程中就提供, 在线课件, 肯定是最全的知识点, 但我看了下感觉学起来有点多, 然后就网上找课件资料.
-2. 网上课件资料找到, 是一个所有AZ900重点知识点的总结, 比官方课件文档少很多, 然后下载网页, 打印出来学习, 一共四十多页, 字比较大, 可以先刷一遍, 一点都看不懂的再去查资料或官方课件学习
+官方demo地址: 
 
-外部参考链接:
+[jvm-sandbox-repeater/user-guide-cn.md at master · alibaba/jvm-sandbox-repeater (github.com)](https://github.com/alibaba/jvm-sandbox-repeater/blob/master/docs/user-guide-cn.md)
 
- https://blog.csdn.net/qq_36622490/article/details/108794809
+本地成功实例:
 
-https://blog.csdn.net/weixin_45148644/article/details/107360270
+![javascript](/img/repeater.png)
 
-> 耗时: 半天左右
+本地搭建学习步骤:
 
-## 3.第二步: 开始刷题
-
-1. 找题库这个比较坑, 网上能查到的下载资源都需要一点点费用, 没办法, TB代下载两份题库, 共花费不到两块, 然后同事又提供一份题库.
-2. 手里的题库原版都是英文的, 但是翻译后的真的千奇百怪, 尤其是看着机翻的中文版题库, 能吐血. 考完才发现, 还是官方考试的中文翻译靠谱点. 但是, 这几套都差不多, 题最多的版本是220题, 还有185题的, 建议都看一遍.
-3. ⚠️看题中注意, 个别题的题库给的答案是错误的, 多看个题库版本就能发现, 然后刷就完事
-
-外部参考链接:
-
- https://blog.csdn.net/qq_36622490/article/details/108732734
-
-> 耗时: 两天左右
-
-## 4.第三步: 做题反复记忆
-
-1. 做题反复记忆是一套流程, 这一步的做题我是这样操作的:
-
-   > 随便搜个题号, 然后再连做后面三道, 或者10到, 都可以, 挡住答案做完对答案
-   >
-   > 反复重复操作, 强化易错题的记忆
-
-2. 这一步重点是针对易错题, 因为有些概念只能反复才能记住, 总之就是反复做题对答案, 至少保证题库的题90%以上的正确率
-
-## 5.正式考试
-
-网上查了别人的分享, 感觉很慌张, 实际我准备远程和正式操作中比较顺利, 就是忘带身份证, 用驾照认证了完全ok, 步骤如下:
-
-1. 下载专用考试软件, 按步骤调试软件可正常运行;
-2. 会收到需要上传身份证, 考场环境图片的链接, 在手机浏览器中打开按步骤操作就好
-3. 进入专用软件界面, 监考官好像都是说英语, 不过只是在软件的专用聊天工具中打字交流, 不需要语音
-4. 简单问题交流完后, 监考官准备考试, 然后题自动出现, 做就完了
-5. 共43到题, 感觉题库上的题有80%左右, 没有见过的也能答一点, 问题不大
-
-外部参考链接:
-
- https://blog.csdn.net/STARSG0d/article/details/116655243
-
-考试结果当场出来, 后续就可以看到自己账号上的pdf结果和电子徽章了😄
-
-祝看此文的你考试顺利❤️
-
-## 6.全套资料包!!!
-
-<https://github.com/WillingSasi/AZ900/blob/main/az900.zip>
-
-![javascript](/img/az900.png)
+1. [[jvm-sandbox-repeater 学习笔记\][入门使用篇] 1 安装与启动 · TesterHome](https://testerhome.com/topics/20868)
+2. [[jvm-sandbox-repeater 学习笔记\][入门使用篇] 2 配置说明 · TesterHome](https://testerhome.com/topics/20869)
+3. [[jvm-sandbox-repeater 学习笔记\][入门使用篇] 3 现有接口说明 · TesterHome](https://testerhome.com/topics/20912)
+4. [[jvm-sandbox-repeater 学习笔记\][入门使用篇] 4 录制、回放与调试 · TesterHome](https://testerhome.com/topics/20939)
+5. [通用流量录制回放工具 jvm-sandbox-repeater 尝鲜记录 (0716 跑通基于 console 的录制回放) · TesterHome](https://testerhome.com/topics/19778)
 

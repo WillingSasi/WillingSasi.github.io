@@ -176,4 +176,8 @@ JVM Sandbox主要包含SandBox Core、Jetty Server和自定义处理模块三部
 > [JVM SandBox实现原理详解_hxt的博客-CSDN博客](https://blog.csdn.net/qq_40378034/article/details/116255652)
 >
 > [JVM-SANDBOX模块编写EXAMPLE_weixin_34268843的博客-CSDN博客](https://blog.csdn.net/weixin_34268843/article/details/89807966)
+>
+> [[jvm-sandbox - 标签 - 月色深潭 - 博客园 (cnblogs.com)](https://www.cnblogs.com/moonpool/tag/jvm-sandbox/)]
+>
+> [4. jvm-sandbox之调用方式(命令行和http) - 月色深潭 - 博客园 (cnblogs.com)](https://www.cnblogs.com/moonpool/p/14510443.html)
 
