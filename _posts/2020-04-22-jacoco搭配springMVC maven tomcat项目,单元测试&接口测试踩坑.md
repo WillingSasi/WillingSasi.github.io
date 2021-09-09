@@ -39,5 +39,5 @@ jacoco 代码覆盖率工具,可以集成ant,maven,jenkins等.分别调试了jac
 
 附:讲解jacoco原理的一篇文章,讲的很全,有条理,来自腾讯.
 
-https://mp.weixin.qq.com/s?__biz=MzIxNzEyMzIzOA==&mid=2652314564&idx=1&sn=a93e6154c92acaef9204b8440e66a852&scene=21#wechat_redirect![javascript](/img/az900.png)
+https://mp.weixin.qq.com/s?__biz=MzIxNzEyMzIzOA==&mid=2652314564&idx=1&sn=a93e6154c92acaef9204b8440e66a852&scene=21#wechat_redirect
 
