@@ -4,7 +4,7 @@ title:      "Test result analysis program"
 subtitle:   "Data Analysis"
 date:       2020-07-01 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/analysis.jpg"
 catalog:    true
 tags:
     - Java

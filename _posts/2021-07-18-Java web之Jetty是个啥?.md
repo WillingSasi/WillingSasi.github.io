@@ -4,7 +4,7 @@ title:      "Java web之Jetty是个啥?"
 subtitle:   "Jetty"
 date:       2021-07-18 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/jetty.jpg"
 catalog:    true
 tags:
     - Java

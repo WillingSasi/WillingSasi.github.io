@@ -4,7 +4,7 @@ title:      "Jvm Sandbox Repeater更上一层楼"
 subtitle:   "repeater"
 date:       2021-07-06 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/repeater.jpg"
 catalog:    true
 tags:
     - Java

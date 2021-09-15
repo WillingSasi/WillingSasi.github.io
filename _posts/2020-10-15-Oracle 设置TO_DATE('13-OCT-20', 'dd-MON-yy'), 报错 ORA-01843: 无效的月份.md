@@ -4,7 +4,7 @@ title:      "Oracle 设置TO_DATE('13-OCT-20', 'dd-MON-yy'), 报错 ORA-01843: �
 subtitle:   "Oracle"
 date:       2020-04-22 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/slow.jpg"
 catalog:    true
 tags:
     - Oracle

@@ -4,7 +4,7 @@ title:      "Jvm Sandbox详细解读和实践(一)"
 subtitle:   "Jvm Sandbox"
 date:       2021-07-01 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/sandbox.jpg"
 catalog:    true
 tags:
     - Java

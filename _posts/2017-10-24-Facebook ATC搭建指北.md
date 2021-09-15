@@ -4,7 +4,7 @@ title:      "Facebook ATC搭建指北"
 subtitle:   "Facebook ATC"
 date:       2017-10-24 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/facebook.jpg"
 catalog:    true
 tags:
     - ATC

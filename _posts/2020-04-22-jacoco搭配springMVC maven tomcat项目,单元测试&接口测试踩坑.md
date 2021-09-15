@@ -4,7 +4,7 @@ title:      "Jacoco搭配springMVC maven tomcat项目,单元测试&接口测试�
 subtitle:   "Jacoco"
 date:       2020-04-22 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/jacoco.jpg"
 catalog:    true
 tags:
     - Jacoco

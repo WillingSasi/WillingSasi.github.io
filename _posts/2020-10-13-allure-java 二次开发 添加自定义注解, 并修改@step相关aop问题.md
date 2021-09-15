@@ -4,7 +4,7 @@ title:      "allure-java 二次开发 添加自定义注解, 并修改@step相�
 subtitle:   "allure"
 date:       2020-10-13 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/allure.jpg"
 catalog:    true
 tags:
     - Allure

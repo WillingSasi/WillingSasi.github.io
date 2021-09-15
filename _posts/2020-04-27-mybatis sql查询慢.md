@@ -4,7 +4,7 @@ title:      "mybatis sql查询慢"
 subtitle:   "mybatis"
 date:       2020-04-27 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/sql.jpg"
 catalog:    true
 tags:
     - mybatis

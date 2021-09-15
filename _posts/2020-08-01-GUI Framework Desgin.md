@@ -4,7 +4,7 @@ title:      "GUI Framework Desgin"
 subtitle:   "GUI"
 date:       2020-08-01 15:27:00
 author:     "WS"
-header-img: "img/bookstore-2.jpg"
+header-img: "img/gui.jpg"
 catalog:    true
 tags:
     - Java
