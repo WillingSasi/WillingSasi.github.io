@@ -2,10 +2,10 @@
 title: WS Blog
 SEOTitle: WS Blog | 华子的博客
 header-img: img/home-bg.jpg
-email: willingsasi@gmail.com
+email: 15522578697@163.com
 description: "程序、设计、拍照、探索 | liuguanhua & Photography Lover，Software Engineer | 这里是 华子 @willingsasi liuguanhua 的个人博客，无限进步 💪 "
 keyword: "liuguanhua, 华子, 个人网站, 程序设计, 拍照摄影, 互联网, WLB, WS Blog, 华子的博客"
-url: "https://willingsasi.github.io"              # your host, for absolute URL
+url: "http://liuguanhua.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
