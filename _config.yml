@@ -15,6 +15,7 @@ future: true
 RSS: false
 weibo_username:     #u/1870966724
 github_username:    WillingSasi
+bilibili_username:    46253663
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
